@@ -1,5 +1,11 @@
-export default function ScalePage(){
-    return (
-        <h1>Scale page</h1>
-    )
+import scaleImg from "public/scale.jpg";
+import Hero from "@/components/hero";
+export default function ScalePage() {
+  return (
+    <Hero
+      imgData={scaleImg}
+      imgAlt="Steel factory"
+      title="Scale your app to infinity."
+    />
+  );
 }
